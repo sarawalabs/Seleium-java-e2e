@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 133.534 s <<< FAILURE! - in TestSuite
+getLatestCaseNotes(com.ms.dfm.TC_03_GetCaseLogs)  Time elapsed: 54.38 s  <<< FAILURE!
+java.lang.IllegalArgumentException: The maximum length of cell contents (text) is 32767 characters
+	at com.ms.dfm.TC_03_GetCaseLogs.getLatestCaseNotes(TC_03_GetCaseLogs.java:39)
+

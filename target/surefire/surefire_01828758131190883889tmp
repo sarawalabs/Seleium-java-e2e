@@ -1,0 +1,8 @@
+#surefire_0
+#Mon Dec 20 04:36:00 IST 2021
+allure.results.directory=C\:\\DFM\\DFM\\target/allure-results
+user.dir=C\:\\DFM\\DFM
+allure.link.tms.pattern=https\://example.org/browse/{}
+allure.link.issue.pattern=https\://example.org/browse/{}
+localRepository=C\:\\Users\\sarawa\\.m2\\repository
+basedir=C\:\\DFM\\DFM

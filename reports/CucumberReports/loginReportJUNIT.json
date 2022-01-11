@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="10.305">
+<testcase classname="DFM Login" name="Verify user should be able to access the TFS Homepage" time="9.796">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given The user Launches the Browser.........................................passed
+When User enters the url in the browser.....................................passed
+And A homepage must be displayed with the name Azure DevOps.................undefined
+And The collection name samrawlab is also visible...........................skipped
+Then Close the browser......................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

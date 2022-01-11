@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [DFM Automation Flow]">
+  <listeners>
+    <listener class-name="com.ms.dfm.utils.listeners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="DFM Login(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.ms.dfm.TC_03_GetCaseLogs">
+        <methods>
+          <include name="choseBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="closeReporter"/>
+          <include name="Cleanup"/>
+          <include name="getLatestCaseNotes"/>
+          <include name="getResult"/>
+          <include name="Finish"/>
+          <include name="initiateReporter"/>
+        </methods>
+      </class> <!-- com.ms.dfm.TC_03_GetCaseLogs -->
+    </classes>
+  </test> <!-- DFM Login(failed) -->
+</suite> <!-- Failed suite [DFM Automation Flow] -->
