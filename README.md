@@ -8,3 +8,4 @@ This is an End-to-End selenium project with below features. It has all the Java 
 5. Data Driven Framework, with Apache POI.
 6. Docker File to run the test in container ( I will add more details in order to make sure you should have robust framework).
 7. This framework is well tested and converged with "Azure DevOps", "AWS", "Jenkins", "GitLabs" anf "Google Cloud" with docker file.
+8. Log4J logging for deppeer debugging.
